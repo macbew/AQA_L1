@@ -1,0 +1,29 @@
+{
+  "name": "m.mihalchuk",
+  "version": "1.0.0",
+  "description": "task3",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "selenium-webdriver": "^4.0.0-rc-2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.2"
+  },
+  "scripts": {
+    "webdriver:update": "webdriver-manager update",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1qa-education-L1/m.mihalchuk.git"
+  },
+  "author": "Mihalchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a1qa-education-L1/m.mihalchuk/issues"
+  },
+  "homepage": "https://github.com/a1qa-education-L1/m.mihalchuk#readme"
+}
